@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6_anchor</title>
+    <style>
+        head, body{
+            letter-spacing: 0cap;
+            word-wrap: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h3>A (anchor) tag</h3>
+        <p>HTML의 약자는 HyperText MarkUp Language 입니다.</p>
+        <p>화면을 바꿀 수 있는 방식으로 동작한다는 의미입니다. a tag는 href 속성값을 설정하여 이동할 웹페이지를 지정하고 화면을 바꿉니다.</p>
+        
+    </header>
+    <main>
+        <ul>
+            <li>
+                <a target="_blank" href="https://www.naver.com">네이버</a>
+            </li>
+            <li>
+                <a target="_blank" href="https://www.google.com">구글</a>
+            </li>
+            <!-- http://127.0.0.1:3000/day1/6_anchor.html 같은서버, 포트 주소이기 때문에 생략가능 -->
+            <li>
+                <a href="http://192.168.181.20:5500/day1/5_position.html">5_position.html(전체주소)</a>
+            </li>
+            <li>
+                <a href="../test/anchorTest.html">5_position.html</a>
+                <!-- 현재폴더의 부모폴더로 가기 ../ -->
+            </li>
+        </ul>
+    </main>
+</body>
+</html>
